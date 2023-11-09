@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container{
+  background: black;
+  
+}
+
+h1{
+  color: rgb(102, 1, 197);
+}
+
+/*    margin     */
+.mrg{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+/*     navigation     */
+
+#nav{
+  display: flex;
+  justify-content: space-between;
+  background: rgb(102, 1, 197);
+}
+#nav div:nth-child(1){
+  font-size: 30px;
+  font-weight: 1000;
+  padding-left: 100px;
+  color: white;
+}
+#nav div a{
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+/*      header      */
+#header{
+  background: black;
+  display: flex;
+  
+  padding-top: 100px;
+}
+#header div{
+  color: white;
+  font-size: 50px;
+  width: 50%;
+}
+#header div button{
+  display: block;
+  font-size: 25px;
+  padding: 8px;
+  margin-top: 30px;
+  border-radius: 15px;
+  background-color: rgb(102, 1, 197);
+}
+.blue{
+  color: rgb(102, 1, 197);
+}
+#header div img{
+  height: 250px;
+  width: 400px;
+}
+
+/*    about    */
+
+#about{
+  margin-top: 80px;
+}
+#about div h1{
+  margin-bottom: 10px;
+  text-align: center;
+}
+#about div h4{
+  margin-bottom: 10px;
+}
+#about div{
+  padding: 40px;
+  color: white;
+}
+
+
+/*    skill    */
+
+#skill{
+  text-align: center;
+  color: white;
+}
+#skill div{
+  display: flex;
+  justify-content: center;
+  
+} 
+#skill div div{
+  margin: 50px;
+  background: rgba(128, 128, 128, 0.664);
+  border-radius: 10px;
+  padding: 20px;
+}
+#skill div div ul li img{
+   height: 50px;
+   width: 50px;
+}
+#skill div ul{
+  list-style: none;
+}
+#skill div ul li{
+  padding-top: 5px;
+}
+
+/*    my project     */
+
+#project{
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+#project div{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#project div div{
+  margin-left: 10px;
+  margin-right: 10px;
+  background: green;
+  padding: 10px;
+  border-radius: 10px;
+}
+#project div div ul{
+  list-style: none;
+}
+#project div div ul li{
+  margin-top: 6px;
+}
+#project div div ul li img{
+  height: 200px;
+  width: 200px;
+}
+#project div div ul li button{
+  padding: 6px;
+  border-radius: 6px;
+  background: rgb(102, 1, 197);
+  color: white;
+}
+/*    resume     */
+
+#resume{
+  text-align: center;
+  color: white;
+  
+}
+#resume div{
+  padding-bottom: 20px;
+}
+#resume div h1{
+margin: 20px;
+}
+#resume div a{
+  text-decoration: none;
+  color: white;
+  background: rgb(102, 1, 197);
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+/*    contact me     */
+
+#contact{
+  color: white;
+  text-align: center;
+}
+#contact ul li{
+  padding: 5px;
+}
+
+/*    footer     */
+
+#copyright{
+  text-align: center;
+  background: rgb(102, 1, 197);;
+  font-size: 20px;
+  color: white;
+  padding: 5px;
+}
