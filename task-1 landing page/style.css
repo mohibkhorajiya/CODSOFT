@@ -144,7 +144,7 @@
 #our_project div p{
   position: relative;
   font-weight: 700;
-  top: 255px;
+  top: 200px;
   left: -180px;
 }
 
@@ -155,7 +155,7 @@
     
   }
   .flex{
-    margin-top: 50px;
+    margin-top: 80px;
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
