@@ -1,0 +1,36 @@
+#clc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#clc div{
+    box-sizing: border-box;
+    background: gray;
+    padding: 15px;
+    border-radius: 15px;
+    width: 500px;
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    grid-template-rows: repeat(6,1fr);
+}
+
+input{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    height: 80px;
+    border-radius: 15px;
+    font-size: 35px;
+    text-align: right;
+}
+
+button{
+    font-size: 35px;
+    border-radius: 15px;
+    background: indianred;
+    color: white;
+    
+}
